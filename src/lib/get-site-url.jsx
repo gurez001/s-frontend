@@ -5,9 +5,9 @@ export function getSiteURL() {
   // Automatically set by Vercel.
   // 'https://shabby-backend.vercel.app';
   // 'https://shabby-backend.onrender.com'
-  'https://livebakend.onrender.com'
+  'https://s-bakend.onrender.com'
   // Make sure to include `https://` when not localhost.
-  url = url.includes('http') ? url : `https://livebakend.onrender.com`;
+  url = url.includes('http') ? url : `https://s-bakend.onrender.com`;
   // Make sure to include a trailing `/`.
   url = url.endsWith('/') ? url : `${url}/`;
   return url;
